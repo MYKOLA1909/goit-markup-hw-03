@@ -4,17 +4,40 @@ body {
     background-color :#FFFFFF;
 }
 
+p, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 ul {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 a {
     text-decoration: none;
 }
 
+.container {
+width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+}
+
 .header {
     font-family: "Raleway", sans-serif;
 font-weight: 700;
+padding-top: 24;
+padding-bottom: 24;
 }
 
 .header-logo {
@@ -66,14 +89,9 @@ color: #434455;
 }
 
 .hero {
-   font-weight: 700;
-font-size: 56px;
-line-height: 107%;
-letter-spacing: 0.02em;
-text-align: center;
-color: #FFFFFF;
-background: #2E2F42;
-
+   background: #2E2F42;
+   padding-top: 188px;
+   padding-bottom: 188px;
 }
 
 .hero-titl {
@@ -83,6 +101,7 @@ line-height: 107%;
 letter-spacing: 0.02em;
 text-align: center;
 color: #FFFFFF;
+margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -104,6 +123,11 @@ color: #ffffff ;
 background-color: #404BBF;  
 }
 
+.special {
+    padding-top: 120px;
+    padding-bottom: 120px;  
+}
+
 .special-titl {
     font-weight: 500;
 font-size: 20px;
@@ -123,6 +147,8 @@ color: #434455;
 .team {
     text-transform: capitalize;
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-hidden {
@@ -132,6 +158,7 @@ line-height: 111%;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2E2F42;
+margin-bottom: 72px;
 }
 
 .team-list {
@@ -162,6 +189,8 @@ color: #434455;
 
 .portfolio {
     text-transform: capitalize;
+    padding-top: 121px;
+    padding-bottom: 119px;
 }
 
 .portfolio-hidden {
@@ -171,6 +200,7 @@ line-height: 111%;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2E2F42;
+margin-bottom: 72px;
 }
 
 .portfolio-titl {
@@ -191,6 +221,8 @@ color: #434455;
 
 .footer {
 background: #2E2F42;
+padding-top: 100px;
+padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -201,7 +233,6 @@ line-height: 117%;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
-
 }
 
 .footer-logo-iris {
@@ -214,4 +245,5 @@ font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #F4F4FD;
+margin-top: 16px;
 }
