@@ -176,6 +176,7 @@ gap: 24px;
 display: flex;
 flex-direction: column;
 width: calc((100% - 3 * 24) / 4);
+width: 100%;
 }
 
 .special-titl {
@@ -237,6 +238,7 @@ padding: 32px 16px;
 display: flex;
 flex-direction: column;
 width: calc((100% - 3 * 24) / 4);
+width: 100%;
 }
 
 .team-titl {
@@ -280,10 +282,8 @@ margin-bottom: 72px;
 display: flex;
 gap: 32px 24px;
 flex-wrap: wrap;
-}
-
-.portfolio-item {
-    width: calc((100% - 5 * 24) / 6);
+width: calc((100% - 5 * 24) / 6);
+width: 100%;
 }
 
 .portfolio-div-list {
