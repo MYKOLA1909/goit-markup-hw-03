@@ -173,14 +173,16 @@ background-color: #404BBF;
     border: 0;
 }
 
+.special {
+    padding: 120px 0;
+}
+
 .special-container {
-align-items: center; 
-padding: 120px 0;
+align-items: center;
 }
 
 .special-list {
 display: flex;
-padding: 120px 0;
 gap: 24px;
 }
 
@@ -219,8 +221,6 @@ background-color: #F4F4FD;
 .team-container {
 text-transform: capitalize;
 background-color: #F4F4FD;
-padding-top: 120px;
-padding-bottom: 120px;
 }
 
 .team-hidden {
@@ -277,8 +277,11 @@ color: #434455;
 margin: 0 auto;
 }
 
-.portfolio-container {
+.portfolio { 
     padding: 120px 0 120px 0;
+}
+
+.portfolio-container {
 text-transform: capitalize; 
 }
 
