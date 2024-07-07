@@ -39,8 +39,6 @@ margin: 0 auto;
 }
 
 .header {
-font-family: "Raleway", sans-serif;
-font-weight: 700;
 border-bottom: 1px solid #e7e9fc;
 }
 
@@ -82,6 +80,7 @@ line-height: 150%;
 letter-spacing: 0.02em;
 color: #2E2F42;
 padding: 24px 0;
+display: block;
 }
 
 .header-menu-link:hover,
@@ -91,9 +90,7 @@ padding: 24px 0;
 }
 
 .header-soc {
-display: flex;
 margin-left: auto;
-padding: 24px 0;
 }
 
 .header-soc-titl {
@@ -104,6 +101,7 @@ font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 display: flex;
+padding: 24px 0;
 gap: 40px;
 }
 
@@ -189,10 +187,7 @@ gap: 24px;
 }
 
 .special-item {
-display: flex;
-flex-direction: column;
-width: calc((100% - 3 * 24) / 4);
-width: 100%;
+width: calc((100% - 3 * 24px) / 4);
 }
 
 .special-titl {
@@ -209,9 +204,6 @@ font-weight: 400;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
-display: flex;
-max-width: 264px;
-border: 0;
 color: #434455;
 }
 
@@ -250,11 +242,7 @@ padding: 32px 0;
 
 .team-item {
     background-color: #FFFFFF;
-display: flex;
-flex-direction: column;
-border-radius: 0px 0px 4px 4px;
-width: calc((100% - 3 * 24) / 4);
-width: 100%;
+width: calc((100% - 3 * 24px) / 4);
 }
 
 .team-titl {
@@ -301,15 +289,15 @@ margin-bottom: 72px;
 display: flex;
 gap: 48px 24px;
 flex-wrap: wrap;
-width: calc((100% - 5 * 24) / 6);
-width: 100%;
+}
+
+.portfolio-item {
+    width: calc((100% - 2 * 24) / 3);
 }
 
 .portfolio-div-list {
 border: 1px solid #e7e9fc;
-display: flex;
 border-top: none;
-flex-direction: column;
 padding: 32px 16px;
 }
 
@@ -358,6 +346,5 @@ font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #F4F4FD;
-margin-top: 16px;
 max-width: 264px;
 }
